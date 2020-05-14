@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+   <children>
+      <Text fx:id="welcomeScreen" layoutX="200.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome!">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+      <Text layoutX="208.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please Enter Employee Information" />
+      <TextField fx:id="fnameText" layoutX="25.0" layoutY="107.0" promptText="First Name" />
+      <TextField fx:id="minitText" layoutX="25.0" layoutY="139.0" promptText="Middle Initial" />
+      <TextField fx:id="lnameText" layoutX="25.0" layoutY="173.0" promptText="Last Name" />
+      <TextField fx:id="ssnText" layoutX="25.0" layoutY="208.0" promptText="Social Security Number" />
+      <TextField fx:id="bdateText" layoutX="25.0" layoutY="245.0" promptText="Birthday" />
+      <TextField fx:id="addressText" layoutX="25.0" layoutY="285.0" promptText="Address" />
+      <TextField fx:id="sexText" layoutX="306.0" layoutY="107.0" promptText="Sex" />
+      <TextField fx:id="salaryText" layoutX="306.0" layoutY="139.0" promptText="Salary" />
+      <TextField fx:id="superssnText" layoutX="306.0" layoutY="173.0" promptText="Supervisor's SSN" />
+      <TextField fx:id="dnoText" layoutX="306.0" layoutY="208.0" promptText="Department Number" />
+      <TextField fx:id="emailText" layoutX="306.0" layoutY="245.0" promptText="Email" />
+      <Button fx:id="goToProjectButton" layoutX="326.0" layoutY="324.0" mnemonicParsing="false" onAction="#assignProjects" text="Assign To Project" />
+   </children>
+</Pane>
